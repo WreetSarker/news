@@ -9,11 +9,16 @@ import {
 } from "react-router-dom";
 import Home from './components/Home/Home';
 import Footer from './components/Footer/Footer';
+import SlideShowCarousel from './components/SlideShowCarousel/SlideShowCarousel';
+
+
+
 
 function App() {
   return (
     <Router>
       <Header></Header>
+      <SlideShowCarousel ></SlideShowCarousel>
       <Switch>
         <Route exact path="/">
           <Home></Home>

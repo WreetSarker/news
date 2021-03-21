@@ -2,7 +2,7 @@
   text-align: center;
 }
 body{
-  background: #30363D;
+  background: #30363D !important;
 }
 .App-logo {
   height: 40vmin;

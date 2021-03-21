@@ -10,10 +10,25 @@
     position: relative;
     
 }
-.info h2{
-    padding-top: 40px;
+.info h3{
+    font-size: medium;
+    text-align: left;
+    padding-top: 5px;
+    margin-top: 10px;
 }
-
+.info p {
+    font-size: medium;
+    text-align: left;
+    padding-top: 5px;
+    font-style: normal;
+    font-weight: normal;
+    color: #CBCFD4;
+}
+.info h4{
+    font-size: medium;
+    text-align: left;
+    padding-top: 5px;
+}
 
   .article-holder {
     display: inline-grid;

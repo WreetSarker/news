@@ -1,0 +1,36 @@
+.info{
+    height: 472px;
+    width: 330px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(248, 248, 248);
+    background: #3C444D;
+    box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    position: relative;
+    
+}
+.info h2{
+    padding-top: 40px;
+}
+
+
+  .article-holder {
+    display: inline-grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 50px;
+  justify-items: center;
+  padding: 10px;
+  }
+  .find-btn{
+    width: 270px;
+    height: 40px;
+    background: linear-gradient(90deg, #F27A54 0%, #A154F2 100%);
+    border-radius: 20px;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 20px;
+    align-items: center;
+    margin-left: -130px;
+  }
+ 

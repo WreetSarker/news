@@ -10,6 +10,7 @@ import {
 import Home from './components/Home/Home';
 import Footer from './components/Footer/Footer';
 import SlideShowCarousel from './components/SlideShowCarousel/SlideShowCarousel';
+import MiddleContainer from './components/MiddleContainer/MiddleContainer';
 
 
 
@@ -19,6 +20,7 @@ function App() {
     <Router>
       <Header></Header>
       <SlideShowCarousel ></SlideShowCarousel>
+      <MiddleContainer></MiddleContainer>
       <Switch>
         <Route exact path="/">
           <Home></Home>

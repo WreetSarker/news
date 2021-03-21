@@ -1,16 +1,26 @@
-.nav li{
+.nav-link-items li{
     display: inline;
     margin-left: 50px;
     
   }
   
-  .nav a{
+  .nav-link-items a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.877);
     
     font-weight: bold;
   }
-  .nav{
+  .nav-link-items{
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
    
   }
+
+  @media screen and (max-width: 820px){
+    .nav-link-items li{
+      display: flex;
+      margin-left: 50px;
+      flex-direction: column;
+    }
+}

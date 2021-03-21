@@ -6,9 +6,9 @@ const Header = () => {
     return (
         <div >
             <div>
-                <h2 style={{ color: 'white', textAlign: 'center' }}>NEWS</h2>
+                <h2 style={{ color: 'white', textAlign: 'center', marginTop: '30px', marginBottom: '50px' }}>NEWS</h2>
             </div>
-            <nav className="nav">
+            <nav className="nav-link-items">
                 <ul>
 
                     <li>

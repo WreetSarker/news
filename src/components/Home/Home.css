@@ -1,0 +1,15 @@
+.articles-header {
+    width: 550px;
+height: 107px;
+background: -webkit-linear-gradient( #F27A54 0%, #A154F2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+display: flex;
+align-items: center;
+text-align: center;
+}

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Articles from '../Articles/Articles';
+import './Home.css'
 
 const Home = () => {
     const [articles, setArticles] = useState([]);
@@ -10,7 +11,9 @@ const Home = () => {
     }, []);
     console.log(articles);
     return (
+
         <div>
+            <h2 className="articles-header">Latest News</h2>
             {
                 articles.map(article => <Articles article={article}></Articles>)
             }

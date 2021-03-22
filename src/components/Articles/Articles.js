@@ -16,7 +16,7 @@ const Articles = (props) => {
                 <img style={{ width: '160px' }} src={imageUrl} alt="" />
                 <h3>{title}</h3>
                 <h4>{newsSite}</h4>
-                <p>{summary}</p>
+                <p>{summary.slice(0, 200)}</p>
                 <button onClick={() => handleNews(url)} className="find-btn">FIND OUT MORE <FontAwesomeIcon className="right-arrow" icon={faChevronRight} /></button>
             </div>
         </div>
